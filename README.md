@@ -173,7 +173,7 @@ The project follows a **Router → Service → Repository** layered architecture
 
 ```bash
 # Run all tests inside Docker
-docker compose exec app pip install aiosqlite && docker compose exec app pytest tests/ -v
+docker compose exec app pip install -r requirements/test.txt && docker compose exec app pytest tests/ -v
 
 # Or locally (with a virtualenv)
 pip install -r requirements/test.txt aiosqlite
