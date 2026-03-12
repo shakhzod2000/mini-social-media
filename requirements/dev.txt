@@ -1,0 +1,7 @@
+-r base.txt
+
+# Linting & Formatting
+ruff>=0.3.0
+
+# Pre-commit
+pre-commit>=3.0
